@@ -8,7 +8,7 @@ public class PracticeProblem {
 			return -1;
 		}
 		if (num ==1) {
-			return 1;
+			return 3;
 		}
 		return 2 * towerOfHanoi(num + 1) - 1;
 	}
